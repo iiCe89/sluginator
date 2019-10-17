@@ -39,7 +39,7 @@ To add this library to your project, edit your ``composer.json`` file and add th
 Then install the package like so:
 
 ```
-composer install ballen/sluginator --no-dev
+composer require ballen/sluginator
 ```
 
 ### Standalone
@@ -97,7 +97,7 @@ If you wish to run the tests yourself you should run the following:
 
 ```
 # Install the Sluginator Library with the 'development' packages this then including PHPUnit!
-composer install --dev
+composer install
 
 # Now we run the unit tests (from the root of the project) like so:
 ./vendor/bin/phpunit
